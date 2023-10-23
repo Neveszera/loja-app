@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .cabecalho {
+    @apply  bg-gray-700 text-white h-20;
+    & nav{
+        @apply flex flex-row justify-around;
+        & a{
+            @apply text-white text-2xl;
+        }
+    }
+  }
+}
+
+
