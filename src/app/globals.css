@@ -9,10 +9,12 @@
     & nav{
         @apply flex flex-row justify-around;
         & a{
-            @apply text-white text-2xl;
+            @apply block py-7 transition-all duration-300 ease-out hover:bg-white hover:text-black font-extrabold;
         }
     }
   }
 }
+
+
 
 
